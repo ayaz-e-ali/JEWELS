@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Bastiken;
+    src: url(fonts/Bastiken.otf)
+}
+
+@font-face {
+    font-family: Martel;
+    src: url(fonts/Martel-Regular.woff)
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+    @apply max-w-[2000px] md:px-10 lg:px-20 xl:px-28 2xl:px-36 2xl:mx-auto;
+}
+
+html{
+    @apply bg-light
+}
