@@ -20,7 +20,7 @@ interface CardProps {
 }
 function Card({ image_url, name, price, Class }: CardProps) {
     return <div className={`font-martel space-y-2 font-light relative w-full ${Class}`}>
-        <img className="w-full" src={image_url} alt={image_url} />
+        <img loading="lazy" className="w-full" src={image_url} alt={image_url} />
         <p>{name}</p>
         <p>${price} USD</p>
     </div>

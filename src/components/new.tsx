@@ -18,7 +18,7 @@ interface Props {
 }
 function Card({ image_url, content }: Props) {
     return <li className="relative w-full">
-        <img className="w-full" src={image_url} alt={image_url} />
+        <img loading="lazy" className="w-full" src={image_url} alt={image_url} />
         <Button Class="absolute bottom-4 w-4/5">{content}</Button>
     </li>
 }
