@@ -1,7 +1,7 @@
 import Button from "./button";
 
 export default function AboutUs({ }) {
-    return <section className="bg-primary grid lg:grid-cols-2 max-w-[2000px] mx-auto">
+    return <section className="bg-primary grid lg:grid-cols-2 max-w-[2000px] mx-auto text-dark">
         <img className="w-full lg:rounded-se-[20rem]" src="Rectangle 25.png" alt="models wearing jewleries" />
         <div className="flex flex-col font-light gap-20 justify-center lg:pl-16 md:pr-10 lg:pr-20 xl:pr-28 2xl:pr-36 2xl:mx-auto text-center lg:text-left">
             <h4 className="text-header2 font-bastiken">About Us</h4>

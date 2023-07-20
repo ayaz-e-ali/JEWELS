@@ -12,11 +12,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    :root {
+        --color-dark: #1B1B1B;
+        --color-light: #F2F2F2;
+        --color-primary: #EAD9CE;
+        --color-secondary: #B4805D;
+    }
+
+    :root[class~="dark"] {
+        --color-dark: hsl(0, 0%, 85%);
+        --color-light: hsl(0, 0%, 8%);
+        --color-primary: hsl(24, 40%, 6%);
+        --color-secondary: hsl(24, 37%, 54%);
+    }
+}
 
 .container {
     @apply max-w-[2000px] md:px-10 lg:px-20 xl:px-28 2xl:px-36 2xl:mx-auto;
 }
 
-html{
+html {
     @apply bg-light
 }

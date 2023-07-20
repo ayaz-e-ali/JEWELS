@@ -4,13 +4,14 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
-        'dark': '#1B1B1B',
-        'light': '#F2F2F2',
-        'primary': '#EAD9CE',
-        'secondary': '#B4805D',
+        'dark': 'var(--color-dark)',
+        'light': 'var(--color-light)',
+        'primary': 'var(--color-primary)',
+        'secondary': 'var(--color-secondary)',
       },
       fontFamily: {
         martel: ['Martel', 'sans-serif'],

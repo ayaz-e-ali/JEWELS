@@ -1,5 +1,5 @@
 export default function Instagram({ }) {
-    return <section className="flex flex-col container space-y-20 my-20 ">
+    return <section className="flex flex-col container space-y-20 my-20 text-dark">
         <div className="space-y-6">
             <h4 className="text-header2 font-bastiken text-center">Follow Us On Instagram</h4>
             <p className="text-center w-2/3 mx-auto font-martel">@SHOPJEWELSBOUTIQUE #JEWELS</p>
