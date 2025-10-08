@@ -9,6 +9,6 @@ export default function Trending({ }) {
             </p>
             <Button Class="self-start w-1/3">Shop Now</Button>
         </div>
-        <img className="w-full lg:rounded-ss-[20rem]" src="top-view-golden-earrings-arrangement 1.png" alt="" />
+        <img className="w-full lg:rounded-ss-[20rem]" src="top-view-golden-earrings-arrangement 1.webp" alt="" />
     </section>
 }

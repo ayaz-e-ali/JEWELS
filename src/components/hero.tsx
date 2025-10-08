@@ -15,7 +15,7 @@ export default function Hero() {
                 <Button Class="max-w-fit">Shop The Collection</Button>
             </div>
             <div className="col-span-7 py-10">
-                <img className="lg:rounded-s-full w-full" src="pink-cheeked-redhead-woman-plays-with-her-pearl-necklace-lady-classic-white-blouse-looking-down-camera 1.jpg" alt="pink cheeked redhead woman plays with her pearl necklace lady classic white blouse looking down" />
+                <img className="lg:rounded-s-full w-full" src="pink-cheeked-redhead-woman-plays-with-her-pearl-necklace-lady-classic-white-blouse-looking-down-camera 1.webp" alt="pink cheeked redhead woman plays with her pearl necklace lady classic white blouse looking down" />
             </div>
         </div>
     </div>

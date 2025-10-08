@@ -4,9 +4,9 @@ export default function New({ }) {
     return <section className="container space-y-20 my-20 ">
         <h2 className="text-header2 font-bastiken text-center text-dark">New Collection</h2>
         <ul className="flex flex-col lg:flex-row items-center gap-10 px-4 lg:px-0">
-            <Card image_url="display-shiny-luxurious-golden-chain 1.png" content="Necklaces" />
-            <Card image_url="high-angle-aesthetic-golden-earrings-arrangement 1.png" content="Earring" />
-            <Card image_url="wedding-rings-wedding-celebrations-accessories-decorations 1.png" content="Wedding Rings" />
+            <Card image_url="display-shiny-luxurious-golden-chain 1.webp" content="Necklaces" />
+            <Card image_url="high-angle-aesthetic-golden-earrings-arrangement 1.webp" content="Earring" />
+            <Card image_url="wedding-rings-wedding-celebrations-accessories-decorations 1.webp" content="Wedding Rings" />
         </ul>
     </section>
 }
